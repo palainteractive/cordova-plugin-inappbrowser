@@ -2,6 +2,12 @@
 title: Inappbrowser
 description: Open an in-app browser window.
 ---
+
+## iOS 16.4 and inspectable webviews:
+
+As of iOS 16.4 Apple has decided that webviews should no longer be inspectable by default, which makes debugging a pain.   So we have addressed this issue, by reversing the default to the inspectable=YES setting, in the 'inspectable' branch of this project.   'master' will continue for now to have the normal defaults.
+
+
 <!--
 # license: Licensed to the Apache Software Foundation (ASF) under one
 #         or more contributor license agreements.  See the NOTICE file
